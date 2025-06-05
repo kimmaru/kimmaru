@@ -4,7 +4,7 @@
 
 <br>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=35&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=800&lines=안녕하세요+탐구하는+AI+엔지니어+김성주입니다+👋;Deep+Learning+%26+Computer+Vision+Specialist;Always+Learning+%26+Growing+🚀;Let's+Build+the+Future+Together!;Research+%26+Innovation+Driven+🔬)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=32&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=900&lines=안녕하세요+탐구하는+AI+엔지니어+김성주입니다+👋;Deep+Learning+%26+Computer+Vision+Specialist;Always+Learning+%26+Growing+🚀;Let's+Build+the+Future+Together!;Research+%26+Innovation+Driven+🔬)
 
 <br>
 
@@ -84,32 +84,100 @@
 
 <br>
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="25"> **GitHub Analytics**
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="25"> **AI Journey & Achievements**
 
 <div align="center">
 
+### 🎓 **Education & Experience**
+
 <table>
 <tr>
-<td width="50%">
+<td align="center" width="50%">
+<img src="https://img.shields.io/badge/가톨릭대학교-정보통신전자공학부-4285F4?style=for-the-badge&logo=graduation-cap&logoColor=white"/>
+<br><strong>📊 학점: 3.92/4.5 | 전공: 4.04/4.5</strong>
+<br><sub>2017.03 ~ 2024.03</sub>
+</td>
+<td align="center" width="50%">
+<img src="https://img.shields.io/badge/부스트캠프-AI Tech 7기-FF6B6B?style=for-the-badge&logo=rocket&logoColor=white"/>
+<br><strong>🚀 현재 진행 중</strong>
+<br><sub>2024.08 ~ 현재</sub>
+</td>
+</tr>
+</table>
 
-<img src="https://github-readme-stats.vercel.app/api?username=kimmaru&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&text_color=ffffff&count_private=true&include_all_commits=true" width="100%" />
+### 🔬 **Research & Leadership Experience**
+
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="https://img.shields.io/badge/신호처리연구실-학부연구생-6366F1?style=for-the-badge&logo=microscope&logoColor=white"/>
+<br><strong>📚 Image Deblurring 연구</strong>
+<br><sub>2021.09 ~ 2023.07</sub>
+</td>
+<td align="center" width="33%">
+<img src="https://img.shields.io/badge/학술동아리 S.O.C-3학년 대표-4ECDC4?style=for-the-badge&logo=users&logoColor=white"/>
+<br><strong>👥 팀 리더십 경험</strong>
+<br><sub>2022.03 ~ 2023.03</sub>
+</td>
+<td align="center" width="33%">
+<img src="https://img.shields.io/badge/논문 게재-DBPIA-F59E0B?style=for-the-badge&logo=book&logoColor=white"/>
+<br><strong>📄 U-Net 모델 개선 연구</strong>
+<br><sub>학술 성과 달성</sub>
+</td>
+</tr>
+</table>
+
+### 🏆 **Project Achievements**
+
+<table>
+<tr>
+<td align="center" width="50%">
+
+**🏃‍♂️ AI 홈 트레이닝 시스템**
+<br>
+<img src="https://img.shields.io/badge/MediaPipe-00A9E0?style=flat-square&logo=google&logoColor=white"/>
+<img src="https://img.shields.io/badge/MobileNet-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
+<br>
+<sub>팀 리더 | 학술제 입상</sub>
 
 </td>
-<td width="50%">
+<td align="center" width="50%">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=kimmaru&theme=tokyonight&hide_border=true&background=0D1117&stroke=6366F1&ring=6366F1&fire=F59E0B&currStreakLabel=ffffff" width="100%" />
+**🔐 AI 얼굴인식 IoT 시스템**
+<br>
+<img src="https://img.shields.io/badge/Computer Vision-FF6B6B?style=flat-square"/>
+<img src="https://img.shields.io/badge/Raspberry Pi-A22846?style=flat-square&logo=Raspberry%20Pi&logoColor=white"/>
+<br>
+<sub>프로젝트 리더 | 갈등 해결 경험</sub>
 
 </td>
 </tr>
 </table>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kimmaru&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=ffffff&hide=html,css" width="45%" />
+### 📊 **GitHub Activity**
 
-<br><br>
+<div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=kimmaru&theme=tokyo-night&bg_color=0D1117&hide_border=true&line=6366F1&point=6366F1&color=ffffff&area=true" width="100%"/>
+<table>
+<tr>
+<td align="center" width="50%">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=kimmaru&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true"/>
+
+</td>
+<td align="center" width="50%">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kimmaru&layout=compact&theme=tokyonight&hide_border=true"/>
+
+</td>
+</tr>
+</table>
+
+<img height="150em" src="https://github-readme-streak-stats.herokuapp.com?user=kimmaru&theme=tokyonight&hide_border=true"/>
 
 </div>
+
+  </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
