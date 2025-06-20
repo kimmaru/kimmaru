@@ -1,0 +1,35 @@
+name: GitHub Profile 3D Contribution
+
+on:
+  # 매일 오후 6시에 실행
+  schedule:
+    - cron: "0 18 * * *"
+  
+  # 수동 실행 가능
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
+    
+    steps:
+      # Checkout repository
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      # Generate 3D Profile
+      - name: Generate 3D Profile
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          
+      # Commit and push if changed
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Generated 3D profile" || exit 0
+          git push 
