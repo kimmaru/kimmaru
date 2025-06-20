@@ -151,7 +151,7 @@
 
 > 🚀 **Setup Required**: [SETUP.md](SETUP.md#-snake-animation) 가이드를 참고하여 GitHub Actions를 구성하세요!
 
-<img src="https://raw.githubusercontent.com/platane/platane/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="100%"/>
+<img src="https://raw.githubusercontent.com/kimmaru/kimmaru/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="100%"/>
 
 <br>
 
