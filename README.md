@@ -1,10 +1,10 @@
 <div align="center">
 
-<img width="100%" height="250px" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=250&section=header&text=AI%20Engineer&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=ffffff"/>
+<img width="100%" height="120px" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=header&fontSize=30&fontAlignY=35&animation=twinkling&fontColor=ffffff"/>
 
 <br>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=32&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=900&lines=안녕하세요+탐구하는+AI+엔지니어+김성주입니다+👋;Research+%26+Innovation+Driven+🔬;Deep+Learning+%26+Computer+Vision+Specialist;Let's+Build+the+Future+Together!+🚀;Always+Learning+%26+Growing+💡)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=28&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=900&lines=안녕하세요+탐구하는+AI+엔지니어+김성주입니다+👋;Research+%26+Innovation+Driven+🔬;Deep+Learning+%26+Computer+Vision+Specialist;Let's+Build+the+Future+Together!+🚀;Always+Learning+%26+Growing+💡)
 
 <br>
 
@@ -177,7 +177,7 @@
 
 </div>
 
-  </div>
+</div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
@@ -188,72 +188,6 @@
 <div align="center">
 
 <img src="https://github-profile-trophy.vercel.app/?username=kimmaru&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" width="100%" />
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br>
-
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="25"> **Current Focus Areas**
-
-<div align="center">
-
-<table>
-<tr>
-<td align="center" width="33%">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" width="50" height="50"/>
-<br><strong>🤖 LLM Research</strong>
-<br><sub>Large Language Models<br>연구 및 활용</sub>
-</td>
-<td align="center" width="33%">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" width="50" height="50"/>
-<br><strong>🔍 Computer Vision</strong>
-<br><sub>최신 트렌드 탐구<br>및 실무 적용</sub>
-</td>
-<td align="center" width="33%">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" width="50" height="50"/>
-<br><strong>📊 MLOps</strong>
-<br><sub>AI 서비스 배포<br>파이프라인 구축</sub>
-</td>
-</tr>
-<tr>
-<td align="center" width="33%">
-<img src="https://user-images.githubusercontent.com/25181517/223639822-2a01e63a-a7f9-4a39-8930-61431541bc06.png" width="50" height="50"/>
-<br><strong>🌐 Multi-modal AI</strong>
-<br><sub>통합 AI 시스템<br>설계 및 개발</sub>
-</td>
-<td align="center" width="33%">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="50" height="50"/>
-<br><strong>🚀 Production AI</strong>
-<br><sub>실제 서비스 레벨<br>AI 솔루션 구축</sub>
-</td>
-<td align="center" width="33%">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50" height="50"/>
-<br><strong>🔬 Research</strong>
-<br><sub>논문 구현 및<br>새로운 아이디어 탐구</sub>
-</td>
-</tr>
-</table>
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br>
-
-## 💎 **Core Competencies**
-
-<div align="center">
-
-```yaml
-🔬 Research Mindset:     "깊이 있는 연구와 창의적 문제 해결 능력"
-👥 Leadership:           "팀을 이끌고 갈등을 해결하는 리더십"
-🛠️ Technical Excellence: "탄탄한 기술적 기반과 실무 적용 능력"
-📈 Continuous Learning:  "끊임없는 학습과 성장 의지"
-🤝 Collaboration:        "효과적인 협업과 소통 능력"
-🎯 Problem Solving:      "복잡한 문제를 단순하게 해결하는 사고력"
-```
 
 </div>
 
@@ -282,7 +216,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=100&section=header&text=함께%20AI의%20미래를%20만들어나가요!&fontSize=25&fontAlignY=50&animation=fadeIn&fontColor=ffffff"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=80&section=header&text=함께%20AI의%20미래를%20만들어나가요!&fontSize=20&fontAlignY=50&animation=fadeIn&fontColor=ffffff"/>
 
 <br>
 
@@ -306,7 +240,7 @@
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&animation=twinkling"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&animation=twinkling"/>
 
 </div>
 
