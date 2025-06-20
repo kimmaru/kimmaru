@@ -93,7 +93,6 @@
 
 <!--START_SECTION:waka-->
 **📅 Weekly Development Stats** (Coming Soon)
-> 🚀 **Setup Guide**: WakaTime 연동을 위해 [SETUP.md](SETUP.md#-wakatime-stats) 설정 필요
 <!--END_SECTION:waka-->
 
 </details>
@@ -149,15 +148,11 @@
 
 ### 📈 **Contribution Snake Game**
 
-> 🚀 **Setup Required**: [SETUP.md](SETUP.md#-snake-animation) 가이드를 참고하여 GitHub Actions를 구성하세요!
-
 <img src="https://raw.githubusercontent.com/kimmaru/kimmaru/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="100%"/>
 
 <br>
 
 ### 📊 **3D Contribution Profile**
-
-> 🚀 **Setup Required**: [SETUP.md](SETUP.md#-3d-contribution-profile) 가이드를 참고하여 설정하세요!
 
 <img src="https://raw.githubusercontent.com/yoshi389111/github-profile-3d-contrib/main/docs/demo/profile-green-animate.svg" alt="3D Contribution Profile" width="100%"/>
 
@@ -192,7 +187,6 @@ Development:
 
 
 ### 📚 **Latest Blog Posts**
-> 🚀 **Setup Required**: [SETUP.md](SETUP.md#-blog-posts-자동-업데이트) 가이드를 참고하여 RSS 피드를 연동하세요!
 
 <!-- BLOG-POST-LIST:START -->
 - 📝 **최신 포스트가 여기에 자동으로 표시됩니다**
@@ -235,21 +229,7 @@ Development:
 
 <br>
 
-## ⚙️ **Complete Setup Guide**
 
-<div align="center">
-
-<a href="SETUP.md">
-  <img src="https://img.shields.io/badge/📖_Complete_Setup_Guide-FF6B6B?style=for-the-badge&logoColor=white&labelColor=FF6B6B"/>
-</a>
-
-<br><br>
-
-**모든 동적 요소들을 활성화하는 상세한 가이드가 준비되어 있습니다!**
-
-> 🐍 Snake Animation • 🎨 3D Profile • ⏰ WakaTime Stats • 📚 Blog Posts
-
-</div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
