@@ -88,14 +88,7 @@
 
 <div align="center">
 
-<details>
-<summary><b>📊 Weekly Development Breakdown</b></summary>
 
-<!--START_SECTION:waka-->
-**📅 Weekly Development Stats** (Coming Soon)
-<!--END_SECTION:waka-->
-
-</details>
 
 <br>
 
