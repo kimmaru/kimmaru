@@ -115,10 +115,6 @@
 
 <br>
 
-### ⚡ **Activity Graph**
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=kimmaru&theme=tokyo-night&hide_border=true&bg_color=1a1b27&color=9f7aea&line=bb86fc&point=fd79a8&area=true&hide_title=true" width="100%"/>
-
 </div>
 
 ### 🏆 **Achievement Showcase**
@@ -179,14 +175,7 @@ Development:
 
 
 
-### 📚 **Latest Blog Posts**
 
-<!-- BLOG-POST-LIST:START -->
-- 📝 **최신 포스트가 여기에 자동으로 표시됩니다**
-- 🔧 **GitHub Actions 설정 후 업데이트됩니다**
-<!-- BLOG-POST-LIST:END -->
-
-<br>
 
 ### 🎲 **Random Dev Quote**
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="100%"/>
