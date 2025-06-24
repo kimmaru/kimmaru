@@ -26,7 +26,7 @@
 
 <br>
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> **Tech Arsenal**
+## Tech Stack
 
 <div align="center">
 
@@ -34,7 +34,7 @@
 <tr>
 <td align="center" width="50%">
 
-### 🧠 **AI/ML & Deep Learning**
+### AI/ML & Deep Learning
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
@@ -52,7 +52,7 @@
 </td>
 <td align="center" width="50%">
 
-### 💻 **Development & Tools**
+### Development & Tools
 
 <p align="center">
   <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
@@ -84,15 +84,7 @@
 
 <br>
 
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="25"> **GitHub Analytics**
-
-<div align="center">
-
-
-
-<br>
-
-### 🔥 **Performance Overview**
+## GitHub Stats
 
 <div align="center">
 
@@ -115,15 +107,7 @@
 
 <br>
 
-</div>
-
-### 🏆 **Achievement Showcase**
-
-<div align="center">
-
 <img src="https://github-profile-trophy.vercel.app/?username=kimmaru&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" width="100%" />
-
-</div>
 
 </div>
 
@@ -131,23 +115,21 @@
 
 <br>
 
-## 🧭 **Coding Journey Visualization**
+## Activity Visualization
 
 <div align="center">
 
-### 📈 **Contribution Snake Game**
-
+### Contribution Snake
 <img src="https://raw.githubusercontent.com/kimmaru/kimmaru/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="100%"/>
 
 <br>
 
-### 📊 **3D Contribution Profile**
-
-<img src="https://raw.githubusercontent.com/yoshi389111/github-profile-3d-contrib/main/docs/demo/profile-green-animate.svg" alt="3D Contribution Profile" width="100%"/>
+### 3D Contribution Profile
+<img src="./profile-3d-contrib/profile-night-green.svg" alt="3D Contribution Profile" width="100%"/>
 
 <br>
 
-### 🎯 **Skill Progress Radar**
+### Skills Progress
 
 ```yaml
 AI/ML Skills:
@@ -169,20 +151,14 @@ Development:
 
 <br>
 
-## 🎨 **Interactive Elements**
+## Profile Analytics
 
 <div align="center">
 
-
-
-
-
-### 🎲 **Random Dev Quote**
 <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="100%"/>
 
 <br>
 
-### 👀 **Profile Views & Visitors**
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=kimmaru&style=for-the-badge&color=6366F1" alt="Profile Views"/>
   <img src="https://img.shields.io/github/followers/kimmaru?style=for-the-badge&color=4ECDC4&labelColor=2C3E50" alt="Followers"/>
@@ -192,57 +168,8 @@ Development:
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<br>
-
-## 📚 **Latest Learning Journey**
-
 <div align="center">
 
-| 🔥 **Hot Topics** | 📖 **Deep Dive** | 🚀 **Practical** |
-|:---|:---|:---|
-| • Transformer Architecture 심화 | • AI Ethics & Responsible AI | • MLOps Pipeline 구축 |
-| • Attention Mechanisms 분석 | • Model Interpretability | • CI/CD for ML Projects |
-| • BERT, GPT 계열 모델 연구 | • Bias Detection & Mitigation | • Cloud ML Platform 활용 |
-| • Vision Transformer (ViT) | • Fairness in AI Systems | • Model Monitoring & Deployment |
+<img width="100%" height="120px" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&fontSize=30&fontAlignY=85&animation=twinkling&fontColor=ffffff"/>
 
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br>
-
-
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br>
-
-## <img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width="50"> **Let's Connect & Collaborate!**
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=80&section=header&text=함께%20AI의%20미래를%20만들어나가요!&fontSize=20&fontAlignY=50&animation=fadeIn&fontColor=ffffff"/>
-
-<br>
-
-<p align="center">
-  <a href="#portfolio">
-    <img src="https://img.shields.io/badge/🌟_My_Portfolio-FF6B6B?style=for-the-badge&logoColor=white&labelColor=FF6B6B"/>
-  </a>
-  <a href="mailto:contact@example.com">
-    <img src="https://img.shields.io/badge/📧_Contact_Me-4ECDC4?style=for-the-badge&logoColor=white&labelColor=4ECDC4"/>
-  </a>
-  <a href="#linkedin">
-    <img src="https://img.shields.io/badge/🔗_LinkedIn-45B7D1?style=for-the-badge&logoColor=white&labelColor=45B7D1"/>
-  </a>
-</p>
-
-<br>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer&animation=twinkling"/>
-
-</div>
-
-<div align="center">
-<sub><strong>🔥 Passionate AI Engineer | 🎯 Problem Solver | 🌟 Lifelong Learner | 🚀 Innovation Driven</strong></sub>
 </div>
