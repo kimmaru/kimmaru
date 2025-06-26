@@ -50,46 +50,42 @@
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+---
 
-<br>
-
-## GitHub Stats
+## 💡 Current Focus
 
 <div align="center">
 
-<table>
-<tr>
-<td align="center" width="50%">
+| 🔬 **Research Areas** | 🚀 **Development Focus** | 📚 **Learning Path** |
+|:---|:---|:---|
+| • Deep Learning Architecture | • MLOps Pipeline 구축 | • Transformer 심화 연구 |
+| • Computer Vision Applications | • AI Model Optimization | • LLM Fine-tuning 기법 |
+| • Neural Network Optimization | • Production Deployment | • Multi-modal AI Systems |
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=kimmaru&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true"/>
+</div>
 
-</td>
-<td align="center" width="50%">
+---
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kimmaru&layout=compact&theme=tokyonight&hide_border=true"/>
+## 🏆 Achievement Highlights
 
-</td>
-</tr>
-</table>
+<div align="center">
 
-<img height="150em" src="https://github-readme-streak-stats.herokuapp.com?user=kimmaru&theme=tokyonight&hide_border=true"/>
+<img src="https://github-readme-streak-stats.herokuapp.com?user=kimmaru&theme=tokyonight&hide_border=true" width="49%" />
+<img src="https://github-readme-stats.vercel.app/api?username=kimmaru&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="49%" />
 
-<br>
+<br><br>
 
 <img src="https://github-profile-trophy.vercel.app/?username=kimmaru&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7" width="100%" />
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+---
 
-<br>
-
-## Activity Visualization
+## 🎯 Activity Visualization
 
 <div align="center">
 
-### Contribution Snake
+### Contribution Snake Animation
 <img src="https://raw.githubusercontent.com/kimmaru/kimmaru/output/github-contribution-grid-snake-dark.svg" alt="Snake Animation" width="100%"/>
 
 <br>
@@ -97,46 +93,37 @@
 ### 3D Contribution Profile
 <img src="./profile-3d-contrib/profile-night-green.svg" alt="3D Contribution Profile" width="100%"/>
 
-<br>
-
-### Skills Progress
-
-```yaml
-AI/ML Skills:
-  Deep Learning: ████████████████████ 95%
-  Computer Vision: ███████████████████░ 90%
-  PyTorch: ████████████████████ 95%
-  Python: █████████████████████ 100%
-
-Development:
-  Algorithm Design: ████████████████░░░░ 80%
-  System Architecture: ███████████░░░░░░░░░ 75%
-  Database Design: ██████████████░░░░░░ 70%
-  DevOps: ███████████░░░░░░░░░ 60%
-```
-
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+---
 
-<br>
-
-## Profile Analytics
+## 📝 Latest Blog Posts
 
 <div align="center">
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="100%"/>
+• [Deep Learning 모델 최적화 전략](#)  
+• [Computer Vision 프로젝트 실전 가이드](#)  
+• [PyTorch 고급 기법 탐구](#)  
+• [AI 연구 동향 분석](#)  
+• [MLOps 구축 경험기](#)
 
-<br>
+</div>
+
+---
+
+## 📊 Quick Stats
+
+<div align="center">
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=kimmaru&style=for-the-badge&color=6366F1" alt="Profile Views"/>
   <img src="https://img.shields.io/github/followers/kimmaru?style=for-the-badge&color=4ECDC4&labelColor=2C3E50" alt="Followers"/>
+  <img src="https://img.shields.io/badge/Focus-AI%20Research-FF6B6B?style=for-the-badge" alt="Focus"/>
 </p>
 
-</div>
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="100%"/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+</div>
 
 <div align="center">
 
