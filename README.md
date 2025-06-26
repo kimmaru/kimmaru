@@ -26,7 +26,7 @@
 
 <br>
 
-## Tech Stack
+## 🛠️ Dev Environments 🛠️
 
 <div align="center">
 
@@ -34,49 +34,19 @@
 <tr>
 <td align="center" width="50%">
 
-### AI/ML & Deep Learning
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white" />
-  <img src="https://img.shields.io/badge/NumPy-777BB4?style=for-the-badge&logo=numpy&logoColor=white" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white" />
-  <img src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-</p>
+![Base Metrics](https://github.com/kimmaru/kimmaru/blob/main/metrics.base.svg)
+![Stars](https://github.com/kimmaru/kimmaru/blob/main/metrics.plugin.stars.svg)
 
 </td>
 <td align="center" width="50%">
 
-### Development & Tools
-
-<p align="center">
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
-</p>
+![Calendar](https://github.com/kimmaru/kimmaru/blob/main/metrics.plugin.isocalendar.fullyear.svg)
+![Habits](https://github.com/kimmaru/kimmaru/blob/main/metrics.plugin.habits.facts.svg)
+![Languages](https://github.com/kimmaru/kimmaru/blob/main/metrics.plugin.languages.details.svg)
 
 </td>
 </tr>
 </table>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Obsidian-483699?style=for-the-badge&logo=obsidian&logoColor=white" />
-  <img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=Raspberry%20Pi&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" />
-</p>
 
 </div>
 
