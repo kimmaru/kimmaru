@@ -4,7 +4,7 @@
 
 <br>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=Fira+Code&size=28&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=900&lines=안녕하세요+탐구하는+AI+엔지니어+김성주입니다+👋&repeat=false&typeSpeed=70&deleteSpeed=0&height=50)
+![Typing SVG](https://readme-typing-svg.demolab.com/?font=Fira+Code&size=32&duration=4000&pause=1000&color=6366F1&center=true&vCenter=true&width=800&lines=%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94+%ED%83%90%EA%B5%AC%ED%95%98%EB%8A%94+AI+%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4+%EA%B9%80%EC%84%B1%EC%A3%BC%EC%9E%85%EB%8B%88%EB%8B%A4+%F0%9F%91%8B&repeat=false)
 
 <br>
 
