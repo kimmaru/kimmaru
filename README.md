@@ -4,7 +4,7 @@
 
 <br>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=안녕하세요!+탐구하는+AI+엔지니어+김성주입니다+👋;Always+Learning+and+Growing+💡;Deep+Learning+%26+Computer+Vision+Specialist)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Hello!+I'm+AI+Engineer+Kim+Sungjoo+👋)](https://git.io/typing-svg)
 
 <br>
 
