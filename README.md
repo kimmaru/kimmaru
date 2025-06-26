@@ -5,7 +5,7 @@
 <br>
 
 <h2 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&color=6366F1&vCenter=true&width=565&lines=안녕하세요+탐구하는+AI+엔지니어+김성주입니다&repeat=false&duration=2800" alt="Typing SVG" /><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&color=6366F1&vCenter=true&width=15&lines=;;;;;;;;;;;;;;%7C;%20&repeat=true&duration=100&pause=100" alt="Blinking cursor" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&color=6366F1&vCenter=true&width=565&lines=안녕하세요+탐구하는+AI+엔지니어+김성주입니다&repeat=false&duration=2800" alt="Typing SVG" /><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&color=6366F1&vCenter=true&width=50&lines=%F0%9F%91%8B;%20;%F0%9F%91%8B;%20&repeat=true&duration=800&pause=200" alt="Waving hand cursor" />
 </h2>
 
 <br>
