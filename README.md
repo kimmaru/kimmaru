@@ -5,8 +5,8 @@
 <br>
 
 <h2 align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&color=6366F1&vCenter=true&width=590&lines=안녕하세요+탐구하는+AI+엔지니어+김성주입니다&repeat=false&typeSpeed=90&duration=3000" alt="Typing introduction" /><!--
---><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&color=FFD700&vCenter=true&width=20&height=50&lines=👋;%20;👋;%20&repeat=true&duration=600&pause=400" alt="Fast blinking wave" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&color=6366F1&vCenter=true&width=420&lines=커피와+코드로+AI를+빚는+사람&repeat=false&typeSpeed=100&duration=2500" alt="Creative introduction" /><!--
+--><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&color=FFD700&vCenter=true&width=25&height=50&lines=☕;%20;☕;%20&repeat=true&duration=800&pause=600" alt="Coffee cursor" />
 </h2>
 
 <br>
