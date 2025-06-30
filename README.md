@@ -5,8 +5,8 @@
 <br>
 
 <h1 align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=24&duration=3000&pause=500&color=FFA8FF,FF7CF5,7CFBFF&center=true&vCenter=true&width=820&height=90&lines=Caffeine+%2B+Code+%3D+Mind-Blown+AI&repeat=false&backSpeed=0" alt="Vaporwave Intro" /><!--
---><img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=24&duration=700&pause=350&color=FFA8FF,FF7CF5&center=true&vCenter=true&width=44&height=90&lines=%3E;%20;%3E;%20&repeat=true" alt="Retro Cursor" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=24&duration=3000&pause=500&color=FF9A8B,FF6A88,FF99AC&center=true&vCenter=true&width=820&height=90&lines=Caffeine+%2B+Code+%3D+Mind-Blown+AI&repeat=false&backSpeed=0" alt="Vaporwave Intro" /><!--
+--><img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=24&duration=700&pause=350&color=FF9A8B,FF6A88&center=true&vCenter=true&width=44&height=90&lines=%3E;%20;%3E;%20&repeat=true" alt="Retro Cursor" />
 </h1>
 
 <br>
