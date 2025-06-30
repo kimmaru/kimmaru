@@ -5,7 +5,7 @@
 <br>
 
 <h2 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&color=6366F1&vCenter=true&width=620&lines=안녕하세요+탐구하는+AI+엔지니어+김성주입니다;안녕하세요+탐구하는+AI+엔지니어+김성주입니다+👋;안녕하세요+탐구하는+AI+엔지니어+김성주입니다;안녕하세요+탐구하는+AI+엔지니어+김성주입니다+👋&typeSpeed=90&backSpeed=0&duration=4000&pause=1200&repeat=false" alt="Elegant typing with waving hand cursor" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&color=6366F1&vCenter=true&width=565&lines=안녕하세요+탐구하는+AI+엔지니어+김성주입니다&repeat=false&typeSpeed=90&duration=3000" alt="Typing introduction" /><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&color=FFD700&vCenter=true&width=35&height=50&lines=👋;%20;👋;%20&repeat=true&duration=1200&pause=800" alt="Blinking wave" />
 </h2>
 
 <br>
