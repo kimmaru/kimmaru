@@ -4,10 +4,10 @@
 
 <br>
 
-<h2 align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&color=6366F1&vCenter=true&width=420&lines=커피와+코드로+AI를+빚는+사람&repeat=false&typeSpeed=100&duration=2500" alt="Creative introduction" /><!--
---><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&color=FFD700&vCenter=true&width=25&height=50&lines=☕;%20;☕;%20&repeat=true&duration=800&pause=600" alt="Coffee cursor" />
-</h2>
+<h1 align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&color=FF6B6B,FF8E53,FF6B9D&vCenter=true&width=450&height=60&lines=커피와+코드로+AI를+빚는+사람&repeat=false&typeSpeed=120&duration=2800" alt="Creative introduction" /><!--
+--><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=32&color=D4AF37,FFA500&vCenter=true&width=35&height=60&lines=☕;%20;☕;%20&repeat=true&duration=1000&pause=700" alt="Coffee cursor" />
+</h1>
 
 <br>
 
