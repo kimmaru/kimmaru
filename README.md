@@ -5,8 +5,8 @@
 <br>
 
 <h1 align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=36&color=00D4FF,FF0080,00FF88&background=000000&vCenter=true&width=480&height=70&lines=커피와+코드로+AI를+창조한다&repeat=false&typeSpeed=140&duration=3000" alt="Neon introduction" /><!--
---><img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=800&size=36&color=FF00FF,00FFFF&background=000000&vCenter=true&width=40&height=70&lines=⚡;%20;⚡;%20&repeat=true&duration=800&pause=500" alt="Neon cursor" />
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=34&duration=3000&pause=500&color=00F0FF,FF00C8,00FF6F&background=000000&center=true&vCenter=true&width=540&height=70&lines=Engineering+the+Future+with+AI+%26+Code" alt="Glitch Neon Intro" /><!--
+--><img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=800&size=34&duration=800&pause=400&color=FFFFFF,FF00C8&background=000000&center=true&vCenter=true&width=44&height=70&lines=▍;%20;▍;%20" alt="Glitch Cursor" />
 </h1>
 
 <br>
