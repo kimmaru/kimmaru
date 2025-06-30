@@ -5,8 +5,8 @@
 <br>
 
 <h1 align="center">
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=34&duration=3000&pause=500&color=00F0FF,FF00C8,00FF6F&background=000000&center=true&vCenter=true&width=540&height=70&lines=Engineering+the+Future+with+AI+%26+Code" alt="Glitch Neon Intro" /><!--
---><img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=800&size=34&duration=800&pause=400&color=FFFFFF,FF00C8&background=000000&center=true&vCenter=true&width=44&height=70&lines=▍;%20;▍;%20" alt="Glitch Cursor" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Audiowide&size=38&duration=3300&pause=600&color=7CFBFF,FF72FF,B9FFFD&center=true&vCenter=true&width=660&height=80&lines=Coding+Cosmos%3A+Galactic+AI+Crafter" alt="Holographic Intro" /><!--
+--><img src="https://readme-typing-svg.herokuapp.com?font=Audiowide&size=38&duration=900&pause=450&color=7CFBFF,FF72FF&center=true&vCenter=true&width=60&height=80&lines=✨;%20;✨;%20" alt="Star Cursor" />
 </h1>
 
 <br>
