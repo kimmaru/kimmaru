@@ -29,7 +29,7 @@
 
 <br>
 
-## 🛠️ Dev Environments 🛠️
+## 🛠️ Dev Environments 🛠️.
 
 <div align="center">
 
