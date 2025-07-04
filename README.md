@@ -75,64 +75,73 @@
 
 ## 📁 프로젝트들
 
-### 4. 🎭 Image Classification - 마스크 착용 상태 분류
+### 🎭 마스크 착용 상태 분류
 [![GitHub](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/kimmaru/level1-imageclassification-cv-21)
 
-COVID-19 확산 방지를 위한 마스크 착용 상태 자동 분류 시스템
+COVID-19 팬데믹 상황에서 마스크 착용 상태를 자동으로 분류하는 이미지 분류 시스템
 
-**🔧 기술 스택**: PyTorch, ResNet, EfficientNet, ViT, Data Augmentation  
-**📊 데이터**: 4,500명 × 7장 이미지 (총 31,500장), 18개 클래스  
-**🎯 성과**: F1-score 0.74+ 달성, 마스크/성별/연령 복합 분류
+**🔧 기술 스택**: PyTorch, CNN, Data Augmentation, Transfer Learning  
+**📊 데이터**: 아시아인 마스크 착용 상태 이미지, 마스크/성별/연령 조합 18개 클래스  
+**🎯 주요 특징**: 
+- **마스크 상태**: 정상 착용, 잘못된 착용, 미착용
+- **성별**: 남성, 여성
+- **연령**: 30세 미만, 30-60세, 60세 이상
+- ResNet, EfficientNet 등 다양한 모델 실험
+- 데이터 불균형 해결을 위한 증강 기법 적용
 
-- **마스크 상태**: 착용(Wear), 잘못된 착용(Incorrect), 미착용(Not Wear)
-- **성별**: 남성(Male), 여성(Female)  
-- **연령**: <30세, 30-60세, 60세 이상
-- **이미지 크기**: 384 × 512
-- **사용 모델**: ResNet50, EfficientNet, ViT, MobileNet, ConvNext 등
-- **데이터 증강**: ColorJitter, RandomFlip, CutMix 등 활용
-
-### 1. 🎮 Object Detection - 재활용품 분류
+### 🗂️ 재활용 쓰레기 객체 탐지
 [![GitHub](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/kimmaru/level2-objectdetection-cv-21)
 
-일반 쓰레기, 플라스틱, 종이, 유리 등 10개 클래스의 재활용품을 자동으로 분류하는 객체 탐지 시스템
+일반 쓰레기, 플라스틱, 종이, 유리 등 재활용품을 자동으로 분류하는 객체 탐지 시스템
 
-**🔧 기술 스택**: MMDetection, YOLO, DETR, Faster R-CNN, Augmentation  
-**📊 데이터**: 9,754장 학습 이미지, 4,871장 테스트 이미지  
-**🎯 성과**: mAP 0.5+ 달성, 실제 재활용 분류 시스템 구현
+**🔧 기술 스택**: MMDetection, YOLO, Faster R-CNN, RetinaNet, SSD  
+**📊 데이터**: 10개 클래스 재활용품 이미지 (General trash, Paper, Paper pack, Metal, Glass, Plastic, Styrofoam, Plastic bag, Battery, Clothing)  
+**🎯 주요 특징**:
+- mAP@0.5 기준 성능 평가
+- MMDetection 프레임워크 활용
+- 다양한 객체 탐지 모델 비교 실험
+- 데이터 증강 및 앙상블 기법 적용
 
-### 3. 📄 OCR - 의료비 영수증 데이터 추출
+### 📝 글자 검출 및 인식 (OCR)
 [![GitHub](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/kimmaru/level2-cv-datacentric-cv-21)
 
-의료비 영수증에서 텍스트를 자동으로 인식하고 구조화된 데이터로 변환하는 OCR 시스템
+야외 이미지에서 글자를 검출하고 인식하는 Data-Centric AI 접근법의 OCR 시스템
 
-**🔧 기술 스택**: CRAFT, CRNN, TrOCR, Data Augmentation, Post-processing  
-**📊 데이터**: 300장+ 의료비 영수증 이미지  
-**🎯 성과**: 텍스트 검출 F1-score 0.9+ 달성
+**🔧 기술 스택**: EAST Text Detection, CRNN, TrOCR, Data Augmentation  
+**📊 데이터**: 야외 간판, 표지판 등의 글자 이미지  
+**🎯 주요 특징**:
+- Text Detection과 Text Recognition 파이프라인
+- Data-Centric AI 관점에서 데이터 품질 개선에 집중
+- ICDAR 데이터셋 기반 학습
+- 다양한 글자 검출 및 인식 모델 실험
+- 실제 야외 환경의 복잡한 글자 인식 도전
 
-### 2. 🖼️ Image Segmentation - 손 영역 분할
-[![GitHub](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/kimmaru/level2-cv-semanticsegmentation-cv-21)
+### 🖐️ 손뼈 X-ray 영상 분할
+[![GitHub](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/kimmaru/level2-cv-semanticsegmentation-cv-20-lv3)
 
-손 이미지에서 손목, 손등, 손가락 등 세부 영역을 정확하게 분할하는 세맨틱 세그멘테이션 모델
+손뼈 X-ray 이미지에서 29개 뼈 부위를 정확하게 분할하는 의료 영상 세그멘테이션 모델
 
-**🔧 기술 스택**: DeepLabV3+, UNet, HRNet, Augmentation, Ensemble  
-**📊 데이터**: 2,929장 손 이미지, 29개 클래스  
-**🎯 성과**: mIoU 0.65+ 달성, 정밀한 손 영역 분할
+**🔧 기술 스택**: U-Net, DeepLabV3+, HRNet, MMSegmentation, Albumentations  
+**📊 데이터**: 손뼈 X-ray 이미지, 29개 클래스 (finger-1~19, Trapezium, Trapezoid, Capitate, Hamate, Scaphoid, Lunate, Triquetrum, Pisiform, Radius, Ulna)  
+**🎯 주요 특징**:
+- 의료 영상에서의 정밀한 뼈 구조 분할
+- mIoU 기준 성능 평가
+- 다양한 세그멘테이션 모델 비교 실험
+- 의료 도메인 특화 데이터 증강 기법
+- 뼈 경계의 정확한 분할을 위한 모델 최적화
 
-### 5. 💽 CV Final Project - 앨범 표지 맞춤 제작 서비스
+### 🎨 Computer Vision 파이널 프로젝트
 [![GitHub](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/kimmaru/level4-cv-finalproject-hackathon-cv-20-lv3)
 
-AI 기반 맞춤형 앨범 커버 자동 생성 웹 서비스
+팀 프로젝트로 진행한 Computer Vision 최종 해커톤 프로젝트
 
-**🔧 기술 스택**: Stable Diffusion, Dreambooth, FastAPI, ChatGPT API, Celery, Redis  
-**📊 데이터**: 멜론 사이트 크롤링 3,851개 음악 데이터  
-**🎯 성과**: 텍스트-이미지 생성 모델 구현, 실시간 웹 서비스 배포
-
-- **핵심 기능**: 
-  - 노래 정보 → ChatGPT API → 프롬프트 생성
-  - Stable Diffusion 기반 앨범 커버 생성
-  - Dreambooth로 가수 사진 포함 커버 생성
-- **데이터 수집**: 노래 제목, 가수명, 앨범명, 발매일, 장르, 가사, 앨범 표지 URL
-- **MLOps**: Airflow 파이프라인, Docker 컨테이너화, AWS 배포
+**🔧 기술 스택**: Computer Vision, Deep Learning, Team Collaboration  
+**📊 프로젝트**: 레벨 4 파이널 해커톤 팀 프로젝트  
+**🎯 주요 특징**:
+- 팀 단위 협업 프로젝트
+- 실제 문제 해결을 위한 CV 기술 적용
+- 해커톤 형식의 집중적인 개발
+- 프로젝트 결과물 및 발표 경험
 
 ---
 
