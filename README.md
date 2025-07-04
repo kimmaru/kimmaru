@@ -75,73 +75,50 @@
 
 ## 📁 프로젝트들
 
-### 🎭 마스크 착용 상태 분류
+### 🖌️ Sketch Image Classification (AI Palette)
 [![GitHub](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/kimmaru/level1-imageclassification-cv-21)
 
-COVID-19 팬데믹 상황에서 마스크 착용 상태를 자동으로 분류하는 이미지 분류 시스템
+500-class sketch image classification challenge using ImageNet-Sketch + Upstage datasets.
 
-**🔧 기술 스택**: PyTorch, CNN, Data Augmentation, Transfer Learning  
-**📊 데이터**: 아시아인 마스크 착용 상태 이미지, 마스크/성별/연령 조합 18개 클래스  
-**🎯 주요 특징**: 
-- **마스크 상태**: 정상 착용, 잘못된 착용, 미착용
-- **성별**: 남성, 여성
-- **연령**: 30세 미만, 30-60세, 60세 이상
-- ResNet, EfficientNet 등 다양한 모델 실험
-- 데이터 불균형 해결을 위한 증강 기법 적용
+**🔧 기술 스택**: PyTorch, timm, Auto-Augment, Mixup/CutMix, WandB  
+**🏆 결과**: Top-1 Accuracy **90.3 %** (DeiT-Large + TTA Ensemble)  
+**📝 역할**: 파이프라인 구축, 모델 서치, 팀 일정·워크로드 관리
 
-### 🗂️ 재활용 쓰레기 객체 탐지
+### 🚯 재활용 쓰레기 객체 탐지
 [![GitHub](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/kimmaru/level2-objectdetection-cv-21)
 
-일반 쓰레기, 플라스틱, 종이, 유리 등 재활용품을 자동으로 분류하는 객체 탐지 시스템
+10종류 재활용 쓰레기를 COCO 포맷으로 탐지·분류.
 
-**🔧 기술 스택**: MMDetection, YOLO, Faster R-CNN, RetinaNet, SSD  
-**📊 데이터**: 10개 클래스 재활용품 이미지 (General trash, Paper, Paper pack, Metal, Glass, Plastic, Styrofoam, Plastic bag, Battery, Clothing)  
-**🎯 주요 특징**:
-- mAP@0.5 기준 성능 평가
-- MMDetection 프레임워크 활용
-- 다양한 객체 탐지 모델 비교 실험
-- 데이터 증강 및 앙상블 기법 적용
+**🔧 기술 스택**: MMDetection, YOLOv11, Faster/Cascade R-CNN, RT-DETR, Swin  
+**📊 데이터**: 15 k 이미지, 10클래스(General trash, Paper, …, Clothing)  
+**🎯 주요 특징**: 모델 앙상블·증강 기법으로 mAP@0.5 대폭 향상, 상세 결과는 Wrap-up Report 참조
 
-### 📝 글자 검출 및 인식 (OCR)
+### 🔤 Data-Centric OCR
 [![GitHub](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/kimmaru/level2-cv-datacentric-cv-21)
 
-야외 이미지에서 글자를 검출하고 인식하는 Data-Centric AI 접근법의 OCR 시스템
+야외 간판·표지판 글자 검출 및 인식을 데이터 품질 개선 중심으로 해결.
 
-**🔧 기술 스택**: EAST Text Detection, CRNN, TrOCR, Data Augmentation  
-**📊 데이터**: 야외 간판, 표지판 등의 글자 이미지  
-**🎯 주요 특징**:
-- Text Detection과 Text Recognition 파이프라인
-- Data-Centric AI 관점에서 데이터 품질 개선에 집중
-- ICDAR 데이터셋 기반 학습
-- 다양한 글자 검출 및 인식 모델 실험
-- 실제 야외 환경의 복잡한 글자 인식 도전
+**🔧 기술 스택**: EAST, TrOCR, CRNN, Albumentations, WandB  
+**⚙️ 접근법**: 주석 가이드라인 수립 → 오류 수정·증강 → 모델 재학습  
+**📈 성과**: 데이터만 개선하여 baseline 대비 Recall/Precision 유의미 향상
 
-### 🖐️ 손뼈 X-ray 영상 분할
+### 🦴 손뼈 X-ray 분할
 [![GitHub](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/kimmaru/level2-cv-semanticsegmentation-cv-20-lv3)
 
-손뼈 X-ray 이미지에서 29개 뼈 부위를 정확하게 분할하는 의료 영상 세그멘테이션 모델
+손뼈 X-ray 이미지에서 29개 뼈 구조를 픽셀 단위 세그멘테이션.
 
-**🔧 기술 스택**: U-Net, DeepLabV3+, HRNet, MMSegmentation, Albumentations  
-**📊 데이터**: 손뼈 X-ray 이미지, 29개 클래스 (finger-1~19, Trapezium, Trapezoid, Capitate, Hamate, Scaphoid, Lunate, Triquetrum, Pisiform, Radius, Ulna)  
-**🎯 주요 특징**:
-- 의료 영상에서의 정밀한 뼈 구조 분할
-- mIoU 기준 성능 평가
-- 다양한 세그멘테이션 모델 비교 실험
-- 의료 도메인 특화 데이터 증강 기법
-- 뼈 경계의 정확한 분할을 위한 모델 최적화
+**🔧 기술 스택**: MMSegmentation, Unet++, DeepLabV3+, UperNet-Swin, Optuna  
+**🏆 결과**: Validation Dice **0.970** (UperNet-Swin, 1536²)  
+**🎯 주요 특징**: 하이퍼파라미터 탐색·사이즈 비교·오프라인 증강 및 앙상블
 
-### 🎨 Computer Vision 파이널 프로젝트
+### 🔊 Audio-Language Model 경량화 (Final Hackathon)
 [![GitHub](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/kimmaru/level4-cv-finalproject-hackathon-cv-20-lv3)
 
-팀 프로젝트로 진행한 Computer Vision 최종 해커톤 프로젝트
+SALMONN 기반 오디오-텍스트 멀티모달 모델을 VRAM 친화적으로 축소.
 
-**🔧 기술 스택**: Computer Vision, Deep Learning, Team Collaboration  
-**📊 프로젝트**: 레벨 4 파이널 해커톤 팀 프로젝트  
-**🎯 주요 특징**:
-- 팀 단위 협업 프로젝트
-- 실제 문제 해결을 위한 CV 기술 적용
-- 해커톤 형식의 집중적인 개발
-- 프로젝트 결과물 및 발표 경험
+**🔧 기술 스택**: PyTorch, Whisper-v3, BEATs, Llama 3-B, Audio Adapters  
+**🎯 목표**: ASR·AAC 정확도 유지하며 파라미터·메모리 사용량 절감  
+**⚙️ 주요 작업**: 분산 학습 스크립트, 효율성 평가(TTFT/TTOT) 및 Latency benchmark
 
 ---
 
