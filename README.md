@@ -6,7 +6,7 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF6B6B?style=for-the-badge&logoColor=white)](https://portfolio.example.com)
 [![Email](https://img.shields.io/badge/Email-4ECDC4?style=for-the-badge&logoColor=white)](mailto:kimmaru.dev@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-45B7D1?style=for-the-badge&logoColohttps://www.piku.co.kr/w/4SHB3vr=white)](https://linkedin.com/in/kimmaru)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-45B7D1?style=for-the-badge&logoColor=white)](https://linkedin.com/in/kimmaru)
 
 </div>
 
@@ -50,7 +50,7 @@ Machine Learning Engineer focused on Computer Vision applications. Experienced i
 ## Featured Projects
 
 <details>
-<summary><b>🔽 Vision Transformer for Sketch Classification</b></summary>
+<summary>### Vision Transformer for Sketch Classification</summary>
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/kimmaru/level1-imageclassification-cv-21)
 
@@ -67,7 +67,7 @@ Advanced classification system for 500-class sketch images using Vision Transfor
 </details>
 
 <details>
-<summary><b>🔽 Medical Image Segmentation</b></summary>
+<summary>### Medical Image Segmentation</summary>
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/kimmaru/level2-cv-semanticsegmentation-cv-20-lv3)
 
@@ -84,7 +84,7 @@ Pixel-level semantic segmentation for 29 bone structures in hand X-ray images.
 </details>
 
 <details>
-<summary><b>🔽 Object Detection for Waste Classification</b></summary>
+<summary>### Object Detection for Waste Classification</summary>
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/kimmaru/level2-objectdetection-cv-21)
 
@@ -101,7 +101,7 @@ Environmental AI system for identifying and categorizing 10 types of recyclable 
 </details>
 
 <details>
-<summary><b>🔽 Data-Centric OCR</b></summary>
+<summary>### Data-Centric OCR</summary>
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/kimmaru/level2-cv-datacentric-cv-21)
 
@@ -118,7 +118,7 @@ Pure data-centric approach for receipt text detection with fixed EAST architectu
 </details>
 
 <details>
-<summary><b>🔽 Multimodal LLM Optimization</b></summary>
+<summary>### Multimodal LLM Optimization</summary>
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white)](https://github.com/kimmaru/level4-cv-finalproject-hackathon-cv-20-lv3)
 
