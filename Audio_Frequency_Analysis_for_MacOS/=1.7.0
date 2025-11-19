@@ -1,6 +1,0 @@
-Collecting scipy
-  Using cached scipy-1.15.3-cp310-cp310-macosx_10_13_x86_64.whl.metadata (61 kB)
-Requirement already satisfied: numpy<2.5,>=1.23.5 in ./venv/lib/python3.10/site-packages (from scipy) (2.2.6)
-Using cached scipy-1.15.3-cp310-cp310-macosx_10_13_x86_64.whl (38.7 MB)
-Installing collected packages: scipy
-Successfully installed scipy-1.15.3
