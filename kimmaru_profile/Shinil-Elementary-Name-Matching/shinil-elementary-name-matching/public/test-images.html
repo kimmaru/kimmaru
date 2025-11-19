@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지 로딩 테스트</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        .image-test { margin-bottom: 20px; border: 1px solid #ccc; padding: 10px; }
+        img { max-width: 200px; max-height: 200px; display: block; margin-top: 10px; }
+        .success { color: green; }
+        .failure { color: red; }
+    </style>
+</head>
+<body>
+    <h1>이미지 로딩 테스트</h1>
+    
+    <div class="image-test">
+        <h2>테스트 1: 기본 경로</h2>
+        <p>경로: /images/권지율_4학년.png</p>
+        <img src="/images/권지율_4학년.png" alt="권지율" onerror="this.parentNode.innerHTML += '<p class=\'failure\'>로딩 실패</p>';" onload="this.parentNode.innerHTML += '<p class=\'success\'>로딩 성공</p>';">
+    </div>
+
+    <div class="image-test">
+        <h2>테스트 2: 상대 경로</h2>
+        <p>경로: images/권지율_4학년.png</p>
+        <img src="images/권지율_4학년.png" alt="권지율" onerror="this.parentNode.innerHTML += '<p class=\'failure\'>로딩 실패</p>';" onload="this.parentNode.innerHTML += '<p class=\'success\'>로딩 성공</p>';">
+    </div>
+
+    <div class="image-test">
+        <h2>테스트 3: 절대 경로</h2>
+        <p id="path3">경로: ORIGIN/images/권지율_4학년.png</p>
+        <img id="img3" alt="권지율" onerror="this.parentNode.innerHTML += '<p class=\'failure\'>로딩 실패</p>';" onload="this.parentNode.innerHTML += '<p class=\'success\'>로딩 성공</p>';">
+    </div>
+
+    <div class="image-test">
+        <h2>테스트 4: 인코딩된 경로</h2>
+        <p>경로: /images/권지율_4학년.png (인코딩됨)</p>
+        <img src="/images/%EA%B6%8C%EC%A7%80%EC%9C%A8_4%ED%95%99%EB%85%84.png" alt="권지율" onerror="this.parentNode.innerHTML += '<p class=\'failure\'>로딩 실패</p>';" onload="this.parentNode.innerHTML += '<p class=\'success\'>로딩 성공</p>';">
+    </div>
+
+    <script>
+        // 테스트 3 - 절대 경로
+        const origin = window.location.origin;
+        document.getElementById('path3').innerText = `경로: ${origin}/images/권지율_4학년.png`;
+        document.getElementById('img3').src = `${origin}/images/권지율_4학년.png`;
+
+        // 현재 페이지 URL 출력
+        document.body.innerHTML += `<p>현재 URL: ${window.location.href}</p>`;
+        document.body.innerHTML += `<p>Origin: ${window.location.origin}</p>`;
+    </script>
+</body>
+</html> 

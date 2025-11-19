@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npm run build)",
+      "Bash(npm run dev)",
+      "Bash(claude usage)",
+      "Bash(gemini:*)",
+      "Read(//Users/newuser/**)",
+      "Read(//Users/newuser/.config/**)",
+      "Bash(timeout:*)",
+      "Read(//usr/local/bin/**)",
+      "Bash(codex:*)",
+      "Bash(claude -p)",
+      "Bash(cat:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

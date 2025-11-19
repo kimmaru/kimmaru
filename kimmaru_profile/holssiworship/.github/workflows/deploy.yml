@@ -1,0 +1,52 @@
+name: Build and Deploy to Vercel
+
+on:
+  push:
+    branches: [main, master]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          
+      - name: Install Dependencies
+        run: npm ci
+        
+      - name: Build Project
+        run: npm run build
+        
+      - name: Check if VERCEL_TOKEN exists
+        id: check_token
+        run: |
+          if [ -n "${{ secrets.VERCEL_TOKEN }}" ]; then
+            echo "token_exists=true" >> $GITHUB_OUTPUT
+          else
+            echo "token_exists=false" >> $GITHUB_OUTPUT
+          fi
+        
+      - name: Install Vercel CLI
+        if: steps.check_token.outputs.token_exists == 'true'
+        run: npm i -g vercel@latest
+        
+      - name: Deploy to Vercel
+        if: steps.check_token.outputs.token_exists == 'true'
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        run: vercel --prod --yes --token $VERCEL_TOKEN
+        
+      - name: Skip Vercel deployment
+        if: steps.check_token.outputs.token_exists == 'false'
+        run: |
+          echo "⚠️ VERCEL_TOKEN is not set as a GitHub Secret"
+          echo "🚀 Build completed successfully, but deployment was skipped"
+          echo "📝 To enable automatic deployment, please:"
+          echo "   1. Generate a Vercel token at https://vercel.com/account/tokens"
+          echo "   2. Add it as VERCEL_TOKEN in GitHub repository secrets" 

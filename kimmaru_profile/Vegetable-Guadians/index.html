@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetable Guardians - 채소 수호자</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="menu-screen" class="screen active">
+            <div class="menu-content">
+                <h1 class="game-title">🥕 Vegetable Guardians 🥕</h1>
+                <p class="game-subtitle">채소를 지키는 수호자가 되어주세요!</p>
+                <button id="start-button" class="menu-button">게임 시작</button>
+                <button id="help-button" class="menu-button">조작법</button>
+                <div id="help-panel" class="help-panel hidden">
+                    <h3>조작법</h3>
+                    <p><strong>PC:</strong></p>
+                    <p>⬅️ ➡️ 화살표 키 또는 A/D - 좌우 이동</p>
+                    <p>⬆️ ⬇️ 화살표 키 또는 W/S - 상하 이동</p>
+                    <p>P 키 - 일시정지</p>
+                    <p><strong>모바일:</strong></p>
+                    <p>👆 좌우로 터치하여 이동</p>
+                    <p>더블 탭 - 일시정지</p>
+                    <p><strong>공통:</strong></p>
+                    <p>🔫 자동 발사 (조작 불필요)</p>
+                    <h3>게임 방법</h3>
+                    <p>🎯 적을 처치하여 점수를 획득하세요</p>
+                    <p>💎 파워업 아이템을 수집하세요</p>
+                    <p>❤️ 체력이 0이 되면 게임이 끝납니다</p>
+                    <p>🌟 레벨이 올라갈수록 난이도가 증가합니다</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="game-screen" class="screen">
+            <canvas id="game-canvas"></canvas>
+            <div id="game-ui">
+                <div class="ui-top">
+                    <div class="ui-item">
+                        <span class="ui-label">점수</span>
+                        <span id="score" class="ui-value">0</span>
+                    </div>
+                    <div class="ui-item">
+                        <span class="ui-label">웨이브</span>
+                        <span id="level" class="ui-value">1</span>
+                    </div>
+                    <div class="ui-item">
+                        <span class="ui-label">레벨</span>
+                        <span id="player-level" class="ui-value">1</span>
+                    </div>
+                    <div class="ui-item">
+                        <span class="ui-label">남은 적</span>
+                        <span id="remaining-enemies" class="ui-value">0</span>
+                    </div>
+                    <div class="ui-item">
+                        <span class="ui-label">체력</span>
+                        <div id="health-bar" class="health-bar">
+                            <div id="health-fill" class="health-fill"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="exp-bar-container">
+                    <div id="exp-bar" class="exp-bar">
+                        <div id="exp-fill" class="exp-fill"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="pause-overlay" class="overlay hidden">
+                <div class="overlay-content">
+                    <h2>일시정지</h2>
+                    <p id="pause-instruction">P 키를 눌러 재개하세요</p>
+                    <button id="resume-button" class="menu-button">재개</button>
+                    <button id="main-menu-button" class="menu-button">메인 메뉴</button>
+                </div>
+            </div>
+            <div id="ability-overlay" class="overlay hidden">
+                <div class="overlay-content">
+                    <h2 class="level-up-title">⚡ LEVEL UP! ⚡</h2>
+                    <p class="level-up-subtitle">강력한 능력을 선택하세요</p>
+                    <div id="ability-choices" class="ability-choices">
+                        <!-- Ability buttons will be added here dynamically -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="gameover-screen" class="screen">
+            <div class="menu-content">
+                <h1 class="gameover-title">게임 오버</h1>
+                <div class="stats">
+                    <p>최종 점수: <span id="final-score" class="highlight">0</span></p>
+                    <p>최종 레벨: <span id="final-level" class="highlight">0</span></p>
+                </div>
+                <button id="restart-button" class="menu-button">다시 시작</button>
+                <button id="menu-button" class="menu-button">메인 메뉴</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
+

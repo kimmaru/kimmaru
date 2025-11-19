@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지 로딩 디버그</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        .debug-container { margin-bottom: 30px; }
+        .image-test { margin-bottom: 20px; border: 1px solid #ccc; padding: 10px; }
+        img { max-width: 200px; max-height: 200px; display: block; margin-top: 10px; }
+        .success { color: green; font-weight: bold; }
+        .failure { color: red; font-weight: bold; }
+        .test-result { margin-top: 5px; }
+        button { margin: 5px; padding: 8px 12px; }
+    </style>
+</head>
+<body>
+    <h1>이미지 로딩 디버그 테스트</h1>
+    
+    <div class="debug-container">
+        <h2>1. 서버 연결 테스트</h2>
+        <div id="server-test" class="image-test">
+            <p>서버 연결 상태를 확인합니다...</p>
+            <button onclick="testServer()">서버 연결 테스트</button>
+            <div id="server-result"></div>
+        </div>
+    </div>
+    
+    <div class="debug-container">
+        <h2>2. 이미지 로딩 테스트 (절대 경로)</h2>
+        <div class="image-test">
+            <p>경로: https://shinil-elementary-name-matching.vercel.app/images/권지율_4학년.png</p>
+            <button onclick="testImage('img1', 'https://shinil-elementary-name-matching.vercel.app/images/권지율_4학년.png')">이미지 로드 테스트</button>
+            <div id="img1-result" class="test-result"></div>
+            <img id="img1" style="display:none" alt="권지율" 
+                 onerror="handleImageError('img1')" 
+                 onload="handleImageSuccess('img1')"
+            />
+        </div>
+    </div>
+    
+    <div class="debug-container">
+        <h2>3. 이미지 로딩 테스트 (상대 경로)</h2>
+        <div class="image-test">
+            <p>경로: /images/권지율_4학년.png</p>
+            <button onclick="testImage('img2', '/images/권지율_4학년.png')">이미지 로드 테스트</button>
+            <div id="img2-result" class="test-result"></div>
+            <img id="img2" style="display:none" alt="권지율" 
+                 onerror="handleImageError('img2')" 
+                 onload="handleImageSuccess('img2')"
+            />
+        </div>
+    </div>
+    
+    <div class="debug-container">
+        <h2>4. 이미지 로딩 테스트 (URL 인코딩)</h2>
+        <div class="image-test">
+            <p>경로: /images/권지율_4학년.png (인코딩 적용)</p>
+            <button onclick="testImageEncoded('img3', '/images/권지율_4학년.png')">이미지 로드 테스트 (인코딩)</button>
+            <div id="img3-result" class="test-result"></div>
+            <img id="img3" style="display:none" alt="권지율" 
+                 onerror="handleImageError('img3')" 
+                 onload="handleImageSuccess('img3')"
+            />
+        </div>
+    </div>
+    
+    <div class="debug-container">
+        <h2>5. 이미지 HEAD 요청 테스트</h2>
+        <div class="image-test">
+            <p>HEAD 요청으로 이미지 존재 여부 확인</p>
+            <button onclick="testHeadRequest('/images/권지율_4학년.png')">HEAD 요청 테스트</button>
+            <button onclick="testHeadRequest('https://shinil-elementary-name-matching.vercel.app/images/권지율_4학년.png')">HEAD 요청 테스트 (절대경로)</button>
+            <div id="head-result" class="test-result"></div>
+        </div>
+    </div>
+    
+    <div class="debug-container">
+        <h2>6. CORS 테스트</h2>
+        <div class="image-test">
+            <p>CORS 설정 테스트</p>
+            <button onclick="testCORS()">CORS 테스트</button>
+            <div id="cors-result" class="test-result"></div>
+        </div>
+    </div>
+    
+    <div class="debug-container">
+        <h2>7. 이미지 직접 렌더링 테스트</h2>
+        <div class="image-test">
+            <p>기본 HTML img 태그로 이미지 직접 렌더링</p>
+            <img src="/images/권지율_4학년.png" alt="권지율" style="display:block" />
+            <p>인코딩된 URL:</p>
+            <img src="/images/%EA%B6%8C%EC%A7%80%EC%9C%A8_4%ED%95%99%EB%85%84.png" alt="권지율_인코딩" style="display:block" />
+        </div>
+    </div>
+
+    <script>
+        // 서버 연결 테스트
+        async function testServer() {
+            const resultDiv = document.getElementById('server-result');
+            resultDiv.innerHTML = '테스트 중...';
+            
+            try {
+                const start = performance.now();
+                const response = await fetch('/');
+                const elapsed = performance.now() - start;
+                
+                if (response.ok) {
+                    resultDiv.innerHTML = `<div class="success">서버 연결 성공 (${elapsed.toFixed(2)}ms)</div>`;
+                } else {
+                    resultDiv.innerHTML = `<div class="failure">서버 연결 실패: ${response.status} ${response.statusText}</div>`;
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `<div class="failure">서버 연결 오류: ${error.message}</div>`;
+            }
+        }
+        
+        // 이미지 로드 테스트
+        function testImage(imgId, src) {
+            const img = document.getElementById(imgId);
+            const resultDiv = document.getElementById(`${imgId}-result`);
+            
+            resultDiv.innerHTML = '이미지 로드 중...';
+            img.style.display = 'none';
+            img.src = src;
+            img.style.display = 'block';
+        }
+        
+        // 인코딩된 이미지 테스트
+        function testImageEncoded(imgId, src) {
+            const img = document.getElementById(imgId);
+            const resultDiv = document.getElementById(`${imgId}-result`);
+            
+            resultDiv.innerHTML = '이미지 로드 중...';
+            img.style.display = 'none';
+            
+            const encodedSrc = encodeURI(src);
+            resultDiv.innerHTML += `<p>인코딩된 URL: ${encodedSrc}</p>`;
+            
+            img.src = encodedSrc;
+            img.style.display = 'block';
+        }
+        
+        // 이미지 로드 성공 핸들러
+        function handleImageSuccess(imgId) {
+            const img = document.getElementById(imgId);
+            const resultDiv = document.getElementById(`${imgId}-result`);
+            
+            resultDiv.innerHTML += `<div class="success">이미지 로드 성공</div>`;
+            resultDiv.innerHTML += `<p>크기: ${img.naturalWidth}x${img.naturalHeight}</p>`;
+        }
+        
+        // 이미지 로드 실패 핸들러
+        function handleImageError(imgId) {
+            const img = document.getElementById(imgId);
+            const resultDiv = document.getElementById(`${imgId}-result`);
+            
+            resultDiv.innerHTML += `<div class="failure">이미지 로드 실패</div>`;
+            resultDiv.innerHTML += `<p>URL: ${img.src}</p>`;
+            resultDiv.innerHTML += `<p>상태: complete=${img.complete}, naturalWidth=${img.naturalWidth}</p>`;
+        }
+        
+        // HEAD 요청 테스트
+        async function testHeadRequest(url) {
+            const resultDiv = document.getElementById('head-result');
+            resultDiv.innerHTML = '테스트 중...';
+            
+            try {
+                const encodedUrl = encodeURI(url);
+                resultDiv.innerHTML += `<p>요청 URL: ${encodedUrl}</p>`;
+                
+                const response = await fetch(encodedUrl, { method: 'HEAD' });
+                
+                if (response.ok) {
+                    resultDiv.innerHTML += `<div class="success">HEAD 요청 성공: ${response.status} ${response.statusText}</div>`;
+                    
+                    // 헤더 정보 표시
+                    let headers = '';
+                    response.headers.forEach((value, key) => {
+                        headers += `<li>${key}: ${value}</li>`;
+                    });
+                    
+                    resultDiv.innerHTML += `<p>헤더 정보:</p><ul>${headers}</ul>`;
+                } else {
+                    resultDiv.innerHTML += `<div class="failure">HEAD 요청 실패: ${response.status} ${response.statusText}</div>`;
+                }
+            } catch (error) {
+                resultDiv.innerHTML += `<div class="failure">HEAD 요청 오류: ${error.message}</div>`;
+            }
+        }
+        
+        // CORS 테스트
+        async function testCORS() {
+            const resultDiv = document.getElementById('cors-result');
+            resultDiv.innerHTML = '테스트 중...';
+            
+            try {
+                const url = 'https://shinil-elementary-name-matching.vercel.app/images/권지율_4학년.png';
+                const encodedUrl = encodeURI(url);
+                
+                resultDiv.innerHTML += `<p>CORS 테스트 URL: ${encodedUrl}</p>`;
+                
+                const response = await fetch(encodedUrl, { 
+                    mode: 'cors',
+                    credentials: 'omit'
+                });
+                
+                if (response.ok) {
+                    resultDiv.innerHTML += `<div class="success">CORS 테스트 성공</div>`;
+                } else {
+                    resultDiv.innerHTML += `<div class="failure">CORS 테스트 실패: ${response.status} ${response.statusText}</div>`;
+                }
+            } catch (error) {
+                resultDiv.innerHTML += `<div class="failure">CORS 테스트 오류: ${error.message}</div>`;
+            }
+        }
+    </script>
+</body>
+</html> 

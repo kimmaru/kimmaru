@@ -1,0 +1,147 @@
+# Holssi Worship 프로젝트 - Cursor Rules
+
+당신은 홀씨 Worship 예배팀 웹사이트 개발을 위한 전문 개발자입니다.
+
+## 프로젝트 개요
+
+이 프로젝트는 "Here & There" 슬로건으로 홀씨 Worship 예배팀의 웹사이트입니다:
+- **기술 스택**: React 18, Tailwind CSS, JavaScript, React Router, EmailJS
+- **배포**: GitHub Pages, Vercel
+- **목적**: 예배팀 소개, 갤러리, 사역 안내, 연락처
+
+## 기술 스택 규칙
+
+### React 개발 가이드라인
+- **React 18** 최신 기능과 패턴 사용
+- **함수형 컴포넌트**와 **React Hooks** 우선 사용
+- JSX에서 **semantic HTML** 태그 사용 (accessibility 고려)
+- **컴포넌트 재사용성**을 위한 모듈화
+- **props 구조분해 할당** 사용
+- **key prop** 적절히 사용 (리스트 렌더링 시)
+
+### Tailwind CSS 스타일링
+- **utility-first** 접근 방식 준수
+- 프로젝트 커스텀 컬러 팔레트 사용:
+  - Primary: `#1b4cb6` (blue)
+  - Secondary: `#121212` (dark black)
+  - Text: `#f8f8f8` (light text)
+  - Dark: `#121212`, `#1e1e1e`, `#2a2a2a`
+- **responsive design** 우선 (mobile-first)
+- **hover effects**와 **transitions** 적극 활용
+- **backdrop-filter**와 **backdrop-blur** 사용
+- **animation classes** 활용 (fade-in, slide-up 등)
+
+### JavaScript 코딩 스타일
+- **ES6+** 문법 사용 (arrow functions, destructuring, template literals)
+- **const/let** 사용 (var 금지)
+- **async/await** 패턴 선호
+- **명시적 함수명** 사용
+- **JSDoc 주석** 작성 (복잡한 함수의 경우)
+
+## 프로젝트 구조 규칙
+
+### 폴더 구조
+```
+src/
+├── components/     # 재사용 가능한 컴포넌트
+├── pages/         # 페이지 컴포넌트
+├── sections/      # 페이지 섹션 컴포넌트
+├── hooks/         # 커스텀 훅
+├── utils/         # 유틸리티 함수
+├── styles/        # CSS 파일
+└── assets/        # 이미지, 폰트 등
+```
+
+### 네이밍 컨벤션
+- **컴포넌트**: PascalCase (e.g., `HeaderComponent.js`)
+- **파일명**: camelCase (e.g., `useScrollSection.js`)
+- **변수/함수**: camelCase
+- **상수**: UPPER_SNAKE_CASE
+- **CSS 클래스**: kebab-case 또는 Tailwind utilities
+
+## UI/UX 디자인 원칙
+
+### 시각적 일관성
+- **다크 테마** 우선 (`bg-dark`, `text-white`)
+- **Primary blue** (`#1b4cb6`) 포인트 컬러 사용
+- **HolyType 폰트** 브랜딩 요소에 활용
+- **글래스모피즘** 효과 (backdrop-blur) 적극 활용
+
+### 애니메이션 & 인터랙션
+- **부드러운 전환 효과** (transition duration 300-500ms)
+- **호버 효과** 모든 클릭 가능한 요소에 적용
+- **페이드 인/슬라이드 업** 애니메이션 활용
+- **로딩 상태** 시각적 피드백 제공
+
+### 접근성 (Accessibility)
+- **semantic HTML** 태그 사용
+- **aria-label** 속성 추가 (특히 아이콘 버튼)
+- **keyboard navigation** 지원
+- **alt 텍스트** 모든 이미지에 추가
+- **focus styles** 명확히 표시
+
+## 예배팀 웹사이트 특화 규칙
+
+### 콘텐츠 특성
+- **영적이고 따뜻한 톤** 유지
+- **한국어** 콘텐츠 중심 (올바른 띄어쓰기, 문법)
+- **예배 관련 용어** 정확히 사용
+- **소셜 미디어 연동** (Instagram, YouTube, Email)
+
+### 기능적 요구사항
+- **반응형 디자인** 필수 (모바일 우선)
+- **이미지 최적화** (lazy loading, WebP 포맷 고려)
+- **SEO 최적화** (meta tags, sitemap)
+- **성능 최적화** (번들 크기 최소화)
+
+## 코드 품질 규칙
+
+### 에러 처리
+- **try-catch** 블록 적절히 사용
+- **사용자 친화적 에러 메시지** 제공
+- **로딩 상태** 관리 (`isLoading`, `isSubmitting`)
+- **fallback UI** 제공
+
+### 성능 최적화
+- **React.memo** 불필요한 리렌더링 방지
+- **useMemo, useCallback** 적절히 활용
+- **이미지 lazy loading** 구현
+- **번들 분할** 고려 (큰 프로젝트의 경우)
+
+### 보안
+- **XSS 방지** (dangerouslySetInnerHTML 주의)
+- **입력값 검증** (폼 데이터)
+- **환경 변수** 민감한 정보 관리
+
+## 개발 워크플로우
+
+### Git 커밋 규칙
+- **conventional commits** 형식 사용
+- **한국어 커밋 메시지** 허용
+- **기능별 브랜치** 생성 권장
+
+### 테스팅
+- **React Testing Library** 사용
+- **접근성 테스트** 포함
+- **모바일 디바이스** 테스트 필수
+
+### 배포
+- **GitHub Pages** 및 **Vercel** 지원
+- **빌드 최적화** (production mode)
+- **환경별 설정** 분리
+
+## 주의사항
+
+### 금지사항
+- **TypeScript 사용하지 않음** (이 프로젝트는 JavaScript)
+- **불필요한 라이브러리** 추가 지양
+- **인라인 스타일** 최소화 (Tailwind 우선)
+- **console.log** 프로덕션에서 제거
+
+### 권장사항
+- **컴포넌트 재사용성** 높이기
+- **커스텀 훅** 로직 분리
+- **주석** 복잡한 로직에 추가
+- **사용자 경험** 우선 고려
+
+이 규칙들을 따라 홀씨 Worship 웹사이트의 품질과 일관성을 유지하세요. 
