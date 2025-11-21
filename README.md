@@ -6,7 +6,7 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF6B6B?style=for-the-badge&logoColor=white)](https://portfolio.example.com)
 [![Email](https://img.shields.io/badge/Email-4ECDC4?style=for-the-badge&logoColor=white)](mailto:comaoz1@naver.com)
-[![LinkedIn](www.linkedin.com/in/성주-김-60b02928b)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-45B7D1?style=for-the-badge&logoColor=white)](www.linkedin.com/in/성주-김-60b02928b)
 
 </div>
 
