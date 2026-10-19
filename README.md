@@ -6,7 +6,7 @@
 
 [![GitHub](https://img.shields.io/badge/GitHub-kimmaru-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/kimmaru)
 [![Email](https://img.shields.io/badge/Email-comaoz1@naver.com-03C75A?style=flat-square&logo=naver&logoColor=white)](mailto:comaoz1@naver.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sungjoo_Kim-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EC%84%B1%EC%83%BC-%EA%B9%80-60b02928b)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Sungjoo_Kim-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EC%84%B1%EC%A3%BC-%EA%B9%80-60b02928b)
 [![Paper](https://img.shields.io/badge/KIEE_Paper-10.5370%2FKIEE.2023.72.7.843-blue?style=flat-square&logo=doi&logoColor=white)](https://doi.org/10.5370/KIEE.2023.72.7.843)
 [![Patent](https://img.shields.io/badge/Patent-10--2023--0139485-orange?style=flat-square)](https://github.com/kimmaru)
 
@@ -138,6 +138,6 @@
 
 [![Email](https://img.shields.io/badge/Email-comaoz1@naver.com-03C75A?style=for-the-badge&logo=naver&logoColor=white)](mailto:comaoz1@naver.com)
 [![GitHub](https://img.shields.io/badge/GitHub-kimmaru-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/kimmaru)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EC%84%B1%EC%83%BC-%EA%B9%80-60b02928b)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/%EC%84%B1%EC%A3%BC-%EA%B9%80-60b02928b)
 
 </div>
